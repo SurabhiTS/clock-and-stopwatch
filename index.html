@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>
+           Clock and stop watch
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Orbitron&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="container">
+            
+            <div id="btn-grp" >
+                <button id="clock-btn" class="active">Clock</button>
+                <button id="watch-btn" class="inactive">Stopwatch</button>
+            </div>
+            <div id="clock-container">
+                <div >
+                    <div id="date-container"></div>
+                    <div id="time-container"></div>
+                </div>
+            </div>
+            
+            <div id="stopwatch-container"> 
+                <div id="stopwatch">
+                    <div></div>
+                    <span> min :</span>
+                    <div></div>
+                    <span>sec :</span>
+                    <div></div>
+                </div>
+                <div id="watch-btns">
+                    <button id="start">Start</button>
+                    <button id="reset">Reset</button>
+                </div>
+            </div>
+
+        </div>
+       
+        <script src="index.js"></script>
+    </body>
+</html>
